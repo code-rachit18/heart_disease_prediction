@@ -1,63 +1,83 @@
-🚀  ML -Driven System for Coronary Heart Disease Detection and Recommendation
- 
-Domain:-
-Healthcare, Predictive Analytics,Explainable AI
+🚀 ML-Driven System for Coronary Heart Disease Detection & Recommendation
+📌 Domain
+-Healthcare
+-Predictive Analytics
+-Explainable AI
 
-Objective:
-To design and develop a machine learning-based solution for early detection of Coronary Heart Disease using patient clinical data and provide personalized preventive recommendations to reduce future risk
+🎯 Objective
 
-Our Model Journey :
+Build a machine learning–based solution for early detection of Coronary Heart Disease (CHD) using patient clinical data, and generate personalized preventive recommendations to reduce future risk.
 
-⚫Data Collection:
+🗂️ Our Model Journey
+1️⃣ Data Collection
 
-Data collection is from UCI Heart Disease Dataset
+-Dataset: UCI Heart Disease Dataset
 
-⚫Data Preprocessing:
-    Handling missing data
-    Encode the Categorical Values
-    Normalize the continuous Variables
-    Class imbalance handling (SMOTE/under sampling)
+2️⃣ Data Preprocessing
 
+-Handling missing values
+-Encoding categorical variables
+-Normalizing continuous features
+-Managing class imbalance using SMOTE / undersampling
 
-⚫ Model Development
-   ▪️Train and compare various models:
-     •Logical Regression
-     • Random Forest
-     •  XG Boost
-     • SVM
-     • Voting Ensemble
-   ▪️ Evaluate using accuracy,F1,Recall,ROC-AUC
+3️⃣ Model Development
 
+-Trained and compared various ML models:
+ -Logistic Regression
+ -Random Forest
+ -XGBoost
+ -Support Vector Machine (SVM)
 
-⚫ Explainability Layer(Optional):
-    ▪️Using SHAP/LIME to explain model predictions and highlight the risk-features
+Evaluation Metrics Used:
 
-
-⚫ Recommendation System:
- ▪️ Based on the risk factors and thresholds provide personalized advice (diet, smoking cessation, checkups)
+-Accuracy
+-F1 Score
+-Recall
 
 
-⚫Visualization Dashboard :
-  ▪️A simple web-based interface showing:
-      • Input parameters
-      • Risk level
-      • Feature Coordinates
- 
- ⚫ Expected output:
-       •  Trained ML model with 85% accuracy
-       •  Personalized risk prediction dashboard
-       •  Explainable insights using SHAP plots
-       •  Rule based system generating health recommendations
+4️⃣ Explainability Layer (Optional)
 
-⚫ Tech Stack:
-    • Platform : Colab notebook
-    • Languages : Python
-    • Libraries: scikit learn, pandas,numpy,matplolib/seaborn,XGBoost ,SHAP, Flask/Streamlit(for dashboard)
-    • Tools :Git ,Jupyter Notebooks, VS Code
+-Integrated SHAP/LIME to explain predictions
+-Highlighted key risk-driving features
 
+5️⃣ Recommendation System
 
+-Personalized preventive advice based on high-risk factors:
+-Diet suggestions
+-Smoking cessation
+-Regular cardiac checkup reminders
+-Medical follow-ups
 
+6️⃣ Visualization Dashboard
 
+-A simple web-based interface showing:
+-Patient input parameters
+-Predicted risk level
+-Feature contributions (Explainability)
+-Dashboard built using Flask/Streamlit.
 
+📈 Expected Outputs
 
+-Trained ML model with ~85% accuracy
+-Interactive risk prediction dashboard
+-SHAP explainability plots
+-Rule-based health recommendation system
 
+🛠️ Tech Stack
+Platform
+-Google Colab
+
+Languages
+-Python
+
+Libraries
+-Scikit-learn
+-Pandas, NumPy
+-Matplotlib / Seaborn
+-XGBoost
+-SHAP
+-Flask / Streamlit
+
+Jupyter Notebooks
+
+VS Code
